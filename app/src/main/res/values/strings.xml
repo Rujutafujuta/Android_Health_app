@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Health_App</string>
+    <string name="chat_with_us">chat with us!</string>
+    <string name="meditation">Meditation</string>
+    <string name="alarm_clock">Alarm clock</string>
+    <string name="calorie_count">Calorie count</string>
+    <string name="detect_disease">Detect disease</string>
+    <string name="steps">Steps</string>
+    <string name="bmi">BMI</string>
+</resources>
