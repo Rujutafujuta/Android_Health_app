@@ -59,11 +59,6 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
-               /* if(mediaPlayer==null){
-                    mediaPlayer= MediaPlayer.create(getApplicationContext(),mysongs.get(i));
-                }
-                mediaPlayer.start();*/
                 startActivity(new Intent(getApplicationContext(),playerActivity.class).putExtra("songs",mysongs).putExtra("pos",i));
             }
         });
