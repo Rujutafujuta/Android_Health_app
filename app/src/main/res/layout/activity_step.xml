@@ -113,7 +113,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Today's Burnt Calories"
+                android:text="Calories Burnt"
                 android:layout_marginLeft="45dp"/>
 
         </LinearLayout>
@@ -150,7 +150,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="45dp"
-                android:text="Today's Distance Covered in meters" />
+                android:text="Distance Covered in meters" />
 
         </LinearLayout>
 
